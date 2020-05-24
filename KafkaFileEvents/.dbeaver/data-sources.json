@@ -1,0 +1,32 @@
+{
+	"folders": {},
+	"connections": {
+		"oracle_thin-16e94ad64fe-bdd5cefe5cee70a": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "Oracle - ramdb",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "ramdb",
+				"url": "jdbc:oracle:thin:@//localhost:1521/ramdb",
+				"home": "C:\\app\\ramai\\product\\11.2.0\\dbhome_1",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-always-use-dba-views@": "false",
+					"@dbeaver-sid-service@": "SERVICE",
+					"@dbeaver-meta-use-simple-constraints@": "false",
+					"@dbeaver-use-rule-hint@": "false",
+					"@dbeaver-use-meta-optimizer@": "false",
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-check-schema-content@": "false",
+					"@dbeaver-meta-use-sys-schema@": "false",
+					"@dbeaver-always-show-dba@": "false"
+				},
+				"handlers": {}
+			}
+		}
+	}
+}
